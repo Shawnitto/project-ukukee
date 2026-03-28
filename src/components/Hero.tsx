@@ -8,22 +8,22 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-cream via-amber/5 to-cream flex items-center justify-center relative overflow-hidden pt-20">
+    <section className="min-h-screen bg-white flex items-center justify-center relative overflow-hidden pt-20">
       {/* Decorative elements */}
-      <div className="absolute top-10 right-10 w-72 h-72 bg-amber/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-rust/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-10 right-10 w-72 h-72 bg-slate-100 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-slate-100 rounded-full blur-3xl"></div>
 
       <div className="container-elegant relative z-10">
         <div className="text-center space-y-8 animate-fadeIn">
           {/* Main Heading */}
           <div className={`transition-all duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
-            <p className="font-sans text-sm font-semibold text-gold tracking-widest uppercase mb-6">
+            <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase mb-6">
               Artisan Craft
             </p>
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-terra mb-6 leading-tight">
-              Crafted with <span className="text-amber">Intention</span>
+            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-slate-800 mb-6 leading-tight">
+              Crafted with <span className="text-slate-600">Intention</span>
             </h1>
-            <p className="font-sans text-lg md:text-xl text-terra/80 max-w-2xl mx-auto leading-relaxed">
+            <p className="font-sans text-lg md:text-xl text-slate-700/80 max-w-2xl mx-auto leading-relaxed">
               Each piece tells a story of tradition, precision, and artistic vision. Discover handcrafted creations that bridge the gap between heritage and contemporary aesthetics.
             </p>
           </div>

@@ -18,15 +18,15 @@ export default function Header({ scrolled }: HeaderProps) {
     <header
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-cream shadow-lg'
+          ? 'bg-white shadow-lg'
           : 'bg-transparent'
       }`}
     >
       <nav className="container-elegant flex justify-between items-center h-20">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="#" className="font-serif text-3xl font-semibold text-terra hover:text-bronze transition-colors duration-300">
-            UKUKEE
+          <a href="#" className="font-serif text-3xl font-semibold text-slate-800 hover:text-slate-500 transition-colors duration-300">
+            SEONGUK SUH
           </a>
         </div>
 
@@ -57,7 +57,7 @@ export default function Header({ scrolled }: HeaderProps) {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="absolute top-20 left-0 right-0 bg-cream shadow-lg md:hidden animate-slideDown">
+          <div className="absolute top-20 left-0 right-0 bg-white shadow-lg md:hidden animate-slideDown">
             <div className="flex flex-col p-6 space-y-4">
               {navigation.map((item) => (
                 <a

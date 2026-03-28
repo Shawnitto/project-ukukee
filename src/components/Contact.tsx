@@ -28,17 +28,17 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section-padding bg-gradient-to-b from-cream via-amber/5 to-cream">
+    <section id="contact" className="section-padding bg-white">
       <div className="container-elegant">
         {/* Section Header */}
         <div className="text-center space-y-6 mb-16">
-          <p className="font-sans text-sm font-semibold text-gold tracking-widest uppercase">
+          <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase">
             Get In Touch
           </p>
-          <h2 className="text-terra">
+          <h2 className="text-slate-800">
             Let's Collaborate
           </h2>
-          <p className="text-elegant text-terra/70 max-w-2xl mx-auto">
+          <p className="text-elegant text-slate-700/70 max-w-2xl mx-auto">
             Interested in commissioning a piece or discussing a collaboration? We'd love to hear from you.
           </p>
         </div>
@@ -48,33 +48,33 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="font-serif text-lg text-terra mb-3">Studio Location</h3>
-              <p className="text-terra/70 font-sans leading-relaxed">
+              <h3 className="font-serif text-lg text-slate-800 mb-3">Studio Location</h3>
+              <p className="text-slate-600/70 font-sans leading-relaxed">
                 Located in the heart of the creative district, our studio welcomes visitors by appointment.
               </p>
-              <p className="text-sm text-amber font-semibold mt-3">Seoul, South Korea</p>
+              <p className="text-sm text-slate-700 font-semibold mt-3">Seoul, South Korea</p>
             </div>
 
             <div>
-              <h3 className="font-serif text-lg text-terra mb-3">Connect</h3>
+              <h3 className="font-serif text-lg text-slate-800 mb-3">Connect</h3>
               <div className="space-y-2 font-sans text-sm">
-                <p className="text-terra/70">
+                <p className="text-slate-600/70">
                   <span className="font-medium">Email:</span> hello@ukukee.com
                 </p>
-                <p className="text-terra/70">
+                <p className="text-slate-600/70">
                   <span className="font-medium">Phone:</span> +82 2 XXXX XXXX
                 </p>
               </div>
             </div>
 
             <div>
-              <h3 className="font-serif text-lg text-terra mb-3">Follow</h3>
+              <h3 className="font-serif text-lg text-slate-800 mb-3">Follow</h3>
               <div className="flex space-x-4">
                 {['Instagram', 'Pinterest', 'LinkedIn'].map((social) => (
                   <a
                     key={social}
                     href="#"
-                    className="text-sm font-sans text-terra/60 hover:text-amber transition-colors duration-300 underline"
+                    className="text-sm font-sans text-slate-500/70 hover:text-slate-600 transition-colors duration-300 underline"
                   >
                     {social}
                   </a>
@@ -88,7 +88,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}
               <div>
-                <label htmlFor="name" className="block font-sans text-sm font-medium text-terra mb-2">
+                <label htmlFor="name" className="block font-sans text-sm font-medium text-slate-800 mb-2">
                   Name *
                 </label>
                 <input
@@ -105,7 +105,7 @@ export default function Contact() {
 
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block font-sans text-sm font-medium text-terra mb-2">
+                <label htmlFor="email" className="block font-sans text-sm font-medium text-slate-800 mb-2">
                   Email *
                 </label>
                 <input
@@ -122,7 +122,7 @@ export default function Contact() {
 
               {/* Subject */}
               <div>
-                <label htmlFor="subject" className="block font-sans text-sm font-medium text-terra mb-2">
+                <label htmlFor="subject" className="block font-sans text-sm font-medium text-slate-800 mb-2">
                   Subject *
                 </label>
                 <input
@@ -139,7 +139,7 @@ export default function Contact() {
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block font-sans text-sm font-medium text-terra mb-2">
+                <label htmlFor="message" className="block font-sans text-sm font-medium text-slate-800 mb-2">
                   Message *
                 </label>
                 <textarea
@@ -149,7 +149,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 font-sans text-sm bg-cream border-2 border-terra/10 rounded text-terra placeholder-terra/30 focus:outline-none focus:border-amber transition-colors duration-300 resize-none"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300 resize-none"
                   placeholder="Tell us more..."
                 ></textarea>
               </div>
@@ -178,10 +178,10 @@ export default function Contact() {
 
         {/* CTA Section */}
         <div className="text-center space-y-6 py-12">
-          <h3 className="font-serif text-2xl md:text-3xl text-terra">
+          <h3 className="font-serif text-2xl md:text-3xl text-slate-800">
             Ready for a custom commission?
           </h3>
-          <p className="text-terra/70 font-sans max-w-xl mx-auto">
+          <p className="text-slate-700/70 font-sans max-w-xl mx-auto">
             Let's create something extraordinary together. Contact us today to discuss your vision.
           </p>
           <button className="btn-secondary group">

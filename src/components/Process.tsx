@@ -33,17 +33,17 @@ export default function Process() {
   ]
 
   return (
-    <section id="process" className="section-padding bg-cream">
+    <section id="process" className="section-padding bg-white">
       <div className="container-elegant">
         {/* Section Header */}
         <div className="text-center space-y-6 mb-20">
-          <p className="font-sans text-sm font-semibold text-gold tracking-widest uppercase">
+          <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase">
             The Craft
           </p>
-          <h2 className="text-terra">
+          <h2 className="text-slate-800">
             Our Creative Process
           </h2>
-          <p className="text-elegant text-terra/70 max-w-2xl mx-auto">
+          <p className="text-elegant text-slate-700/70 max-w-2xl mx-auto">
             A systematic approach to creation that honors tradition while embracing innovation
           </p>
         </div>
@@ -62,7 +62,7 @@ export default function Process() {
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-serif text-5xl md:text-6xl font-light text-amber/40">
+                        <p className="font-serif text-5xl md:text-6xl font-light text-slate-400">
                           {step.number}
                         </p>
                       </div>
@@ -82,10 +82,10 @@ export default function Process() {
                   </div>
 
                   <div className="md:col-span-6">
-                    <div className="h-64 bg-gradient-to-br from-amber/10 to-terra/5 rounded-lg flex items-center justify-center hover-lift">
+                    <div className="h-64 bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg flex items-center justify-center hover-lift">
                       <div className="text-center">
-                        <p className="text-6xl text-amber/20">◆</p>
-                        <p className="text-terra/30 font-sans text-sm mt-4">{step.title} Image</p>
+                        <p className="text-6xl text-slate-300">◆</p>
+                        <p className="text-slate-500/40 font-sans text-sm mt-4">{step.title} Image</p>
                       </div>
                     </div>
                   </div>
@@ -93,30 +93,30 @@ export default function Process() {
               ) : (
                 <>
                   <div className="md:col-span-6">
-                    <div className="h-64 bg-gradient-to-br from-terra/5 to-amber/10 rounded-lg flex items-center justify-center hover-lift">
+                    <div className="h-64 bg-gradient-to-br from-slate-200 to-slate-100 rounded-lg flex items-center justify-center hover-lift">
                       <div className="text-center">
-                        <p className="text-6xl text-amber/20">◆</p>
-                        <p className="text-terra/30 font-sans text-sm mt-4">{step.title} Image</p>
+                        <p className="text-6xl text-slate-300">◆</p>
+                        <p className="text-slate-500/40 font-sans text-sm mt-4">{step.title} Image</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="md:col-span-1 flex justify-center">
-                    <div className="w-px h-24 bg-gradient-to-b from-terra/50 to-transparent"></div>
+                      <div className="w-px h-24 bg-gradient-to-b from-slate-300 to-transparent"></div>
                   </div>
 
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-serif text-5xl md:text-6xl font-light text-amber/40">
+                        <p className="font-serif text-5xl md:text-6xl font-light text-slate-400">
                           {step.number}
                         </p>
                       </div>
                       <div className="pt-2">
-                        <h3 className="text-2xl md:text-3xl text-terra mb-4 font-serif">
+                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-serif">
                           {step.title}
                         </h3>
-                        <p className="text-elegant text-terra/70">
+                        <p className="text-elegant text-slate-700/70">
                           {step.description}
                         </p>
                       </div>

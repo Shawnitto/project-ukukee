@@ -16,8 +16,8 @@ export default {
         warm: '#6f6f6f',
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        sans: ['Lato', 'sans-serif'],
+        serif: ['Poppins', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       spacing: {
         '18': '4.5rem',

@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   return (
-    <div className="bg-cream min-h-screen">
+    <div className="bg-white min-h-screen">
       <Header scrolled={scrolled} />
       <main>
         <Hero />
