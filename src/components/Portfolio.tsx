@@ -101,7 +101,7 @@ export default function Portfolio() {
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-white to-slate-100 rounded-lg hover-lift">
                   <div className="w-full h-full flex items-center justify-center">
                     <div className="text-center">
-                      <div className="font-serif text-5xl text-slate-300 mb-2">◆</div>
+                      <div className="font-sans text-5xl text-slate-300 mb-2">◆</div>
                       <p className="text-slate-500/40 font-sans text-sm">{item.category}</p>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ export default function Portfolio() {
                 {/* Content */}
                 <div className="space-y-2">
                   <p className="text-xs font-sans font-semibold text-slate-500 uppercase tracking-wider">{item.category} • {item.year}</p>
-                  <h3 className="font-serif text-xl text-slate-800 group-hover:text-slate-600 transition-colors duration-300">
+                  <h3 className="font-sans text-xl text-slate-800 group-hover:text-slate-600 transition-colors duration-300">
                     {item.title}
                   </h3>
                   <p className="text-sm text-slate-600/80 leading-relaxed">

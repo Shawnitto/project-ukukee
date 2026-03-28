@@ -25,7 +25,7 @@ export default function Header({ scrolled }: HeaderProps) {
       <nav className="container-elegant flex justify-between items-center h-20">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="#" className="font-serif text-3xl font-semibold text-slate-800 hover:text-slate-500 transition-colors duration-300">
+          <a href="#" className="font-sans text-3xl font-semibold text-slate-800 hover:text-slate-500 transition-colors duration-300">
             SEONGUK SUH
           </a>
         </div>
@@ -36,10 +36,10 @@ export default function Header({ scrolled }: HeaderProps) {
             <a
               key={item.name}
               href={item.href}
-              className="font-sans text-sm font-medium text-terra hover:text-amber transition-colors duration-300 relative group"
+              className="font-sans text-sm font-medium text-slate-800 hover:text-slate-600 transition-colors duration-300 relative group"
             >
               {item.name}
-              <span className="absolute bottom-0 left-0 w-0 h-px bg-amber transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-px bg-slate-300 transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
@@ -50,9 +50,9 @@ export default function Header({ scrolled }: HeaderProps) {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          <span className={`h-0.5 w-6 bg-terra transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-          <span className={`h-0.5 w-6 bg-terra transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`}></span>
-          <span className={`h-0.5 w-6 bg-terra transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          <span className={`h-0.5 w-6 bg-slate-800 transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+          <span className={`h-0.5 w-6 bg-slate-800 transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`h-0.5 w-6 bg-slate-800 transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
         </button>
 
         {/* Mobile Navigation */}
@@ -63,7 +63,7 @@ export default function Header({ scrolled }: HeaderProps) {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="font-sans text-sm font-medium text-terra hover:text-amber transition-colors duration-300"
+                  className="font-sans text-sm font-medium text-slate-800 hover:text-slate-600 transition-colors duration-300"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}

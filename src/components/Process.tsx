@@ -62,15 +62,15 @@ export default function Process() {
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-serif text-5xl md:text-6xl font-light text-slate-400">
+                        <p className="font-sans text-5xl md:text-6xl font-light text-slate-400">
                           {step.number}
                         </p>
                       </div>
                       <div className="pt-2">
-                        <h3 className="text-2xl md:text-3xl text-terra mb-4 font-serif">
+                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-sans">
                           {step.title}
                         </h3>
-                        <p className="text-elegant text-terra/70">
+                        <p className="text-elegant text-slate-700/70">
                           {step.description}
                         </p>
                       </div>
@@ -78,7 +78,7 @@ export default function Process() {
                   </div>
 
                   <div className="md:col-span-1 flex justify-center">
-                    <div className="w-px h-24 bg-gradient-to-b from-terra/50 to-transparent"></div>
+                    <div className="w-px h-24 bg-gradient-to-b from-slate-300 to-transparent"></div>
                   </div>
 
                   <div className="md:col-span-6">
@@ -108,12 +108,12 @@ export default function Process() {
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-serif text-5xl md:text-6xl font-light text-slate-400">
+                        <p className="font-sans text-5xl md:text-6xl font-light text-slate-400">
                           {step.number}
                         </p>
                       </div>
                       <div className="pt-2">
-                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-serif">
+                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-sans">
                           {step.title}
                         </h3>
                         <p className="text-elegant text-slate-700/70">

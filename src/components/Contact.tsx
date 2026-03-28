@@ -48,7 +48,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="font-serif text-lg text-slate-800 mb-3">Studio Location</h3>
+              <h3 className="font-sans text-lg text-slate-800 mb-3">Studio Location</h3>
               <p className="text-slate-600/70 font-sans leading-relaxed">
                 Located in the heart of the creative district, our studio welcomes visitors by appointment.
               </p>
@@ -56,7 +56,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-serif text-lg text-slate-800 mb-3">Connect</h3>
+              <h3 className="font-sans text-lg text-slate-800 mb-3">Connect</h3>
               <div className="space-y-2 font-sans text-sm">
                 <p className="text-slate-600/70">
                   <span className="font-medium">Email:</span> hello@ukukee.com
@@ -68,7 +68,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-serif text-lg text-slate-800 mb-3">Follow</h3>
+              <h3 className="font-sans text-lg text-slate-800 mb-3">Follow</h3>
               <div className="flex space-x-4">
                 {['Instagram', 'Pinterest', 'LinkedIn'].map((social) => (
                   <a
@@ -98,7 +98,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-cream border-2 border-terra/10 rounded text-terra placeholder-terra/30 focus:outline-none focus:border-amber transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
                   placeholder="Your name"
                 />
               </div>
@@ -115,7 +115,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-cream border-2 border-terra/10 rounded text-terra placeholder-terra/30 focus:outline-none focus:border-amber transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
                   placeholder="your@email.com"
                 />
               </div>
@@ -132,7 +132,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-cream border-2 border-terra/10 rounded text-terra placeholder-terra/30 focus:outline-none focus:border-amber transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
                   placeholder="What's this about?"
                 />
               </div>
@@ -157,7 +157,7 @@ export default function Contact() {
               {/* Submit Button */}
               <div className="flex items-center justify-between pt-4">
                 {submitted && (
-                  <p className="text-sm font-sans text-amber font-medium animate-slideUp">
+                  <p className="text-sm font-sans text-slate-600 font-medium animate-slideUp">
                     ✓ Thank you! We'll be in touch soon.
                   </p>
                 )}
@@ -178,7 +178,7 @@ export default function Contact() {
 
         {/* CTA Section */}
         <div className="text-center space-y-6 py-12">
-          <h3 className="font-serif text-2xl md:text-3xl text-slate-800">
+          <h3 className="font-sans text-2xl md:text-3xl text-slate-800">
             Ready for a custom commission?
           </h3>
           <p className="text-slate-700/70 font-sans max-w-xl mx-auto">

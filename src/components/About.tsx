@@ -24,15 +24,15 @@ export default function About() {
 
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <p className="font-serif text-4xl font-semibold text-slate-600 mb-2">12+</p>
+                <p className="font-sans text-4xl font-semibold text-slate-600 mb-2">12+</p>
                 <p className="font-sans text-sm text-slate-500/60">Years of Experience</p>
               </div>
               <div className="text-center">
-                <p className="font-serif text-4xl font-semibold text-slate-600 mb-2">500+</p>
+                <p className="font-sans text-4xl font-semibold text-slate-600 mb-2">500+</p>
                 <p className="font-sans text-sm text-slate-500/60">Pieces Created</p>
               </div>
               <div className="text-center">
-                <p className="font-serif text-4xl font-semibold text-slate-600 mb-2">40+</p>
+                <p className="font-sans text-4xl font-semibold text-slate-600 mb-2">40+</p>
                 <p className="font-sans text-sm text-slate-500/60">Collections</p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function About() {
             {/* Placeholder for image with elegant styling */}
             <div className="w-full h-full flex items-center justify-center rounded-lg bg-gradient-to-br from-white to-slate-100 overflow-hidden">
               <div className="text-center space-y-4">
-                <div className="font-serif text-6xl text-slate-300">✦</div>
+                <div className="font-sans text-6xl text-slate-300">✦</div>
                 <p className="text-slate-500/40 font-sans">Featured Craft Image</p>
               </div>
             </div>

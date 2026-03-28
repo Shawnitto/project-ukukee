@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#f4f4f4',
-        gold: '#b0b0b0',
-        amber: '#8f8f8f',
-        terra: '#5f5f5f',
-        bronze: '#3f3f3f',
-        rust: '#1f1f1f',
-        warm: '#6f6f6f',
+        cream: '#ffffff',
+        gold: '#e5e7eb',
+        amber: '#d1d5db',
+        terra: '#9ca3af',
+        bronze: '#6b7280',
+        rust: '#4b5563',
+        warm: '#374151',
       },
       fontFamily: {
         serif: ['Poppins', 'sans-serif'],

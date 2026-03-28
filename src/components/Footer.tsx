@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-12 border-b border-slate-200">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-serif text-2xl font-semibold">SEONGUK SUH</h3>
+            <h3 className="font-sans text-2xl font-semibold">SEONGUK SUH</h3>
             <p className="font-sans text-sm text-slate-500 leading-relaxed">
               Master craftsmanship refined through intention, precision, and artistic vision.
             </p>

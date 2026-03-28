@@ -20,7 +20,7 @@ export default function Hero() {
             <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase mb-6">
               Artisan Craft
             </p>
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-slate-800 mb-6 leading-tight">
+            <h1 className="font-sans text-5xl md:text-6xl lg:text-7xl text-slate-800 mb-6 leading-tight">
               Crafted with <span className="text-slate-600">Intention</span>
             </h1>
             <p className="font-sans text-lg md:text-xl text-slate-700/80 max-w-2xl mx-auto leading-relaxed">
@@ -40,10 +40,10 @@ export default function Hero() {
           {/* Scroll Indicator */}
           <div className={`flex justify-center pt-16 transition-all duration-1000 delay-500 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
             <div className="flex flex-col items-center space-y-2 group cursor-pointer">
-              <p className="text-xs font-sans font-medium text-terra/60 group-hover:text-terra transition-colors">Scroll to explore</p>
+              <p className="text-xs font-sans font-medium text-slate-600/70 group-hover:text-slate-800 transition-colors">Scroll to explore</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="block w-0.5 h-6 bg-terra/30 group-hover:bg-terra transition-colors"></span>
-                <span className="block w-0.5 h-6 bg-terra/20 group-hover:bg-terra/60 transition-colors animate-pulse"></span>
+                <span className="block w-0.5 h-6 bg-slate-400 group-hover:bg-slate-800 transition-colors"></span>
+                <span className="block w-0.5 h-6 bg-slate-300 group-hover:bg-slate-600 transition-colors animate-pulse"></span>
               </div>
             </div>
           </div>
