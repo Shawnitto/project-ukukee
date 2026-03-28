@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#faf8f3',
-        gold: '#d4a574',
-        amber: '#c49860',
-        terra: '#8b5a3c',
-        bronze: '#704214',
-        rust: '#a74c2f',
-        warm: '#d97349',
+        cream: '#f4f4f4',
+        gold: '#b0b0b0',
+        amber: '#8f8f8f',
+        terra: '#5f5f5f',
+        bronze: '#3f3f3f',
+        rust: '#1f1f1f',
+        warm: '#6f6f6f',
       },
       fontFamily: {
         serif: ['Playfair Display', 'serif'],

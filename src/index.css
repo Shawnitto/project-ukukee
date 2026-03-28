@@ -73,9 +73,7 @@
 
 .hover-lift:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(139, 90, 60, 0.15);
-}
-
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 /* Elegant line break */
 .divider {
   @apply h-px bg-gradient-to-r from-transparent via-terra to-transparent opacity-30;
