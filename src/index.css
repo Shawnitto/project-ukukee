@@ -8,7 +8,7 @@
   }
   
   body {
-    @apply bg-white text-slate-900 font-sans;
+    @apply bg-white text-[#2a2a2a] font-sans;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -30,11 +30,11 @@
 
 @layer components {
   .btn-primary {
-    @apply px-8 py-4 bg-slate-800 text-white font-sans font-medium transition-all duration-300 hover:bg-slate-700 hover:tracking-wider;
+    @apply px-8 py-4 bg-[#2a2a2a] text-white font-sans font-medium transition-all duration-300 hover:bg-[#5a5a5a] hover:tracking-wider;
   }
   
   .btn-secondary {
-    @apply px-8 py-4 border-2 border-slate-300 text-slate-800 font-sans font-medium transition-all duration-300 hover:bg-slate-100 hover:text-slate-900;
+    @apply px-8 py-4 border-2 border-[#d9d9d9] text-[#2a2a2a] font-sans font-medium transition-all duration-300 hover:bg-[#f0f0f0] hover:text-[#2a2a2a];
   }
   
   .container-elegant {
@@ -78,10 +78,10 @@
 
 /* Elegant line break */
 .divider {
-  @apply h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent opacity-30;
+  @apply h-px bg-gradient-to-r from-transparent via-[#d9d9d9] to-transparent opacity-30;
 }
 
 /* Smooth text selection */
 ::selection {
-  @apply bg-slate-300 text-slate-900;
+  @apply bg-[#d9d9d9] text-[#2a2a2a];
 }

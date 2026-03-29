@@ -32,13 +32,13 @@ export default function Contact() {
       <div className="container-elegant">
         {/* Section Header */}
         <div className="text-center space-y-6 mb-16">
-          <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase">
+          <p className="font-sans text-sm font-semibold text-[#a8a8a8] tracking-widest uppercase">
             Get In Touch
           </p>
-          <h2 className="text-slate-800">
+          <h2 className="text-[#2a2a2a]">
             Let's Collaborate
           </h2>
-          <p className="text-elegant text-slate-700/70 max-w-2xl mx-auto">
+          <p className="text-elegant text-[#5a5a5a]/70 max-w-2xl mx-auto">
             Interested in commissioning a piece or discussing a collaboration? We'd love to hear from you.
           </p>
         </div>
@@ -48,33 +48,33 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="font-sans text-lg text-slate-800 mb-3">Studio Location</h3>
-              <p className="text-slate-600/70 font-sans leading-relaxed">
+              <h3 className="font-sans text-lg text-[#2a2a2a] mb-3">Studio Location</h3>
+              <p className="text-[#a8a8a8]/70 font-sans leading-relaxed">
                 Located in the heart of the creative district, our studio welcomes visitors by appointment.
               </p>
-              <p className="text-sm text-slate-700 font-semibold mt-3">Seoul, South Korea</p>
+              <p className="text-sm text-[#5a5a5a] font-semibold mt-3">Seoul, South Korea</p>
             </div>
 
             <div>
-              <h3 className="font-sans text-lg text-slate-800 mb-3">Connect</h3>
+              <h3 className="font-sans text-lg text-[#2a2a2a] mb-3">Connect</h3>
               <div className="space-y-2 font-sans text-sm">
-                <p className="text-slate-600/70">
+                <p className="text-[#a8a8a8]/70">
                   <span className="font-medium">Email:</span> hello@ukukee.com
                 </p>
-                <p className="text-slate-600/70">
+                <p className="text-[#a8a8a8]/70">
                   <span className="font-medium">Phone:</span> +82 2 XXXX XXXX
                 </p>
               </div>
             </div>
 
             <div>
-              <h3 className="font-sans text-lg text-slate-800 mb-3">Follow</h3>
+              <h3 className="font-sans text-lg text-[#2a2a2a] mb-3">Follow</h3>
               <div className="flex space-x-4">
                 {['Instagram', 'Pinterest', 'LinkedIn'].map((social) => (
                   <a
                     key={social}
                     href="#"
-                    className="text-sm font-sans text-slate-500/70 hover:text-slate-600 transition-colors duration-300 underline"
+                    className="text-sm font-sans text-[#a8a8a8]/70 hover:text-[#a8a8a8] transition-colors duration-300 underline"
                   >
                     {social}
                   </a>
@@ -88,7 +88,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name */}
               <div>
-                <label htmlFor="name" className="block font-sans text-sm font-medium text-slate-800 mb-2">
+                <label htmlFor="name" className="block font-sans text-sm font-medium text-[#2a2a2a] mb-2">
                   Name *
                 </label>
                 <input
@@ -98,14 +98,14 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-[#d9d9d9] rounded text-[#2a2a2a] placeholder-[#a8a8a8] focus:outline-none focus:border-[#a8a8a8] transition-colors duration-300"
                   placeholder="Your name"
                 />
               </div>
 
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block font-sans text-sm font-medium text-slate-800 mb-2">
+                <label htmlFor="email" className="block font-sans text-sm font-medium text-[#2a2a2a] mb-2">
                   Email *
                 </label>
                 <input
@@ -115,14 +115,14 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-[#d9d9d9] rounded text-[#2a2a2a] placeholder-[#a8a8a8] focus:outline-none focus:border-[#a8a8a8] transition-colors duration-300"
                   placeholder="your@email.com"
                 />
               </div>
 
               {/* Subject */}
               <div>
-                <label htmlFor="subject" className="block font-sans text-sm font-medium text-slate-800 mb-2">
+                <label htmlFor="subject" className="block font-sans text-sm font-medium text-[#2a2a2a] mb-2">
                   Subject *
                 </label>
                 <input
@@ -132,14 +132,14 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-[#d9d9d9] rounded text-[#2a2a2a] placeholder-[#a8a8a8] focus:outline-none focus:border-[#a8a8a8] transition-colors duration-300"
                   placeholder="What's this about?"
                 />
               </div>
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block font-sans text-sm font-medium text-slate-800 mb-2">
+                <label htmlFor="message" className="block font-sans text-sm font-medium text-[#2a2a2a] mb-2">
                   Message *
                 </label>
                 <textarea
@@ -149,7 +149,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-slate-200 rounded text-slate-800 placeholder-slate-400 focus:outline-none focus:border-slate-500 transition-colors duration-300 resize-none"
+                  className="w-full px-4 py-3 font-sans text-sm bg-white border-2 border-[#d9d9d9] rounded text-[#2a2a2a] placeholder-[#a8a8a8] focus:outline-none focus:border-[#a8a8a8] transition-colors duration-300 resize-none"
                   placeholder="Tell us more..."
                 ></textarea>
               </div>
@@ -157,8 +157,8 @@ export default function Contact() {
               {/* Submit Button */}
               <div className="flex items-center justify-between pt-4">
                 {submitted && (
-                  <p className="text-sm font-sans text-slate-600 font-medium animate-slideUp">
-                    ✓ Thank you! We'll be in touch soon.
+                  <p className="text-sm font-sans text-[#a8a8a8] font-medium animate-slideUp">
+                    Thank you! We'll be in touch soon.
                   </p>
                 )}
                 <button
@@ -178,10 +178,10 @@ export default function Contact() {
 
         {/* CTA Section */}
         <div className="text-center space-y-6 py-12">
-          <h3 className="font-sans text-2xl md:text-3xl text-slate-800">
+          <h3 className="font-sans text-2xl md:text-3xl text-[#2a2a2a]">
             Ready for a custom commission?
           </h3>
-          <p className="text-slate-700/70 font-sans max-w-xl mx-auto">
+          <p className="text-[#5a5a5a]/70 font-sans max-w-xl mx-auto">
             Let's create something extraordinary together. Contact us today to discuss your vision.
           </p>
           <button className="btn-secondary group">
@@ -193,3 +193,4 @@ export default function Contact() {
     </section>
   )
 }
+

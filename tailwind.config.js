@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         cream: '#ffffff',
-        gold: '#e5e7eb',
-        amber: '#d1d5db',
-        terra: '#9ca3af',
-        bronze: '#6b7280',
-        rust: '#4b5563',
-        warm: '#374151',
+        gold: '#f0f0f0',
+        amber: '#d9d9d9',
+        terra: '#a8a8a8',
+        bronze: '#5a5a5a',
+        rust: '#2a2a2a',
+        warm: '#000000',
       },
       fontFamily: {
         serif: ['Poppins', 'sans-serif'],

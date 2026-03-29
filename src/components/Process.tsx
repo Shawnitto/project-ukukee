@@ -37,13 +37,13 @@ export default function Process() {
       <div className="container-elegant">
         {/* Section Header */}
         <div className="text-center space-y-6 mb-20">
-          <p className="font-sans text-sm font-semibold text-slate-500 tracking-widest uppercase">
+          <p className="font-sans text-sm font-semibold text-[#a8a8a8] tracking-widest uppercase">
             The Craft
           </p>
-          <h2 className="text-slate-800">
+          <h2 className="text-[#2a2a2a]">
             Our Creative Process
           </h2>
-          <p className="text-elegant text-slate-700/70 max-w-2xl mx-auto">
+          <p className="text-elegant text-[#5a5a5a]/70 max-w-2xl mx-auto">
             A systematic approach to creation that honors tradition while embracing innovation
           </p>
         </div>
@@ -62,15 +62,15 @@ export default function Process() {
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-sans text-5xl md:text-6xl font-light text-slate-400">
+                        <p className="font-sans text-5xl md:text-6xl font-light text-[#a8a8a8]">
                           {step.number}
                         </p>
                       </div>
                       <div className="pt-2">
-                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-sans">
+                        <h3 className="text-2xl md:text-3xl text-[#2a2a2a] mb-4 font-sans">
                           {step.title}
                         </h3>
-                        <p className="text-elegant text-slate-700/70">
+                        <p className="text-elegant text-[#5a5a5a]/70">
                           {step.description}
                         </p>
                       </div>
@@ -84,8 +84,8 @@ export default function Process() {
                   <div className="md:col-span-6">
                     <div className="h-64 bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg flex items-center justify-center hover-lift">
                       <div className="text-center">
-                        <p className="text-6xl text-slate-300">◆</p>
-                        <p className="text-slate-500/40 font-sans text-sm mt-4">{step.title} Image</p>
+                        <p className="text-6xl text-[#d9d9d9]">◆</p>
+                        <p className="text-[#a8a8a8]/40 font-sans text-sm mt-4">{step.title} Image</p>
                       </div>
                     </div>
                   </div>
@@ -95,8 +95,8 @@ export default function Process() {
                   <div className="md:col-span-6">
                     <div className="h-64 bg-gradient-to-br from-slate-200 to-slate-100 rounded-lg flex items-center justify-center hover-lift">
                       <div className="text-center">
-                        <p className="text-6xl text-slate-300">◆</p>
-                        <p className="text-slate-500/40 font-sans text-sm mt-4">{step.title} Image</p>
+                        <p className="text-6xl text-[#d9d9d9]">◆</p>
+                        <p className="text-[#a8a8a8]/40 font-sans text-sm mt-4">{step.title} Image</p>
                       </div>
                     </div>
                   </div>
@@ -108,15 +108,15 @@ export default function Process() {
                   <div className="md:col-span-5 space-y-4">
                     <div className="flex items-start space-x-6">
                       <div>
-                        <p className="font-sans text-5xl md:text-6xl font-light text-slate-400">
+                        <p className="font-sans text-5xl md:text-6xl font-light text-[#a8a8a8]">
                           {step.number}
                         </p>
                       </div>
                       <div className="pt-2">
-                        <h3 className="text-2xl md:text-3xl text-slate-800 mb-4 font-sans">
+                        <h3 className="text-2xl md:text-3xl text-[#2a2a2a] mb-4 font-sans">
                           {step.title}
                         </h3>
-                        <p className="text-elegant text-slate-700/70">
+                        <p className="text-elegant text-[#5a5a5a]/70">
                           {step.description}
                         </p>
                       </div>
@@ -131,3 +131,4 @@ export default function Process() {
     </section>
   )
 }
+
